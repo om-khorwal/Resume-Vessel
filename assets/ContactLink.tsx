@@ -8,7 +8,7 @@ interface ContactLinkProps {
 }
 
 const ContactLink = ({ href, icon, label }: ContactLinkProps) => (
-  <Link href={href} className="text-blue-950 flex items-center gap-1">
+  <Link href={href} className="text-blue-950 flex items-center gap-1 text-sm sm:text-base">
     {icon} {label}
   </Link>
 );

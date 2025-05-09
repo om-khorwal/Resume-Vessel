@@ -8,19 +8,17 @@ export default function Home() {
 
   return (
     <>
-    <div className="border-2 p-5">
 
       <Header />
-      <div className="flex w-full gap-15">
-        <div className= "w-[60%]">
-          <Experience />
+      <div className="flex flex-col md:flex-row w-full gap-5 px-4">
+      <div className="w-full md:w-[60%]">
+      <Experience />
         </div>
-        <div className="w-[40%]">
+        <div className="w-full md:w-[40%]">
           <Lifephilosophy />
           <Proud />
           <Strength/>
         </div>
-      </div>
       </div>
 
     </>

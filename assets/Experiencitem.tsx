@@ -30,7 +30,7 @@ const ExperienceItem = ({ title, company, date, location, points }: ExperiencePr
           <li key={i}>{point}</li>
         ))}
       </ul>
-      <p className="my-2 text-gray-800">————————————————————————</p>
+      <p className="mt-1 sm:mt-2 text-gray-800">————————————————————————</p>
     </div>
   );
 };

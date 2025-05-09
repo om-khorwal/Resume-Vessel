@@ -51,7 +51,6 @@ const experiences = [
       "Created custom backtesting and visualization tools, improving strategy validation, risk analysis, and research communication."
     ],
   },
-  // ...add more
 ];
 
 export default function ExperienceSection() {

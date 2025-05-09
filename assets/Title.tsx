@@ -7,7 +7,7 @@ interface headingprop{
 const heading =({label}:headingprop)=>{
     return (
         <>
-        <h2 className="text-3xl  font-bold text-violet-900">{label}</h2>
+        <h2 className="text-xl sm:text-3xl font-bold text-violet-900">{label}</h2>
         <hr className=" border-2 text-violet-900" />  
         </>
     )

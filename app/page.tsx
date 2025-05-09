@@ -11,7 +11,7 @@ export default function Home() {
     <div className=" p-0 sm:p-10 ">
 
       <Header />
-      <div className=" flex gap-20 flex-col sm:flex-row md:w-full px-4">
+      <div className=" flex sm:gap-20 flex-col sm:flex-row md:w-full px-4">
       <div className="w-full sm:w-[60%]">
       <Experience />
         </div>

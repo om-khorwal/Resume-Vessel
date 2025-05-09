@@ -10,7 +10,7 @@ import Name from "../assets/name";
 
 const Header = () => {
   return (
-    <div className="sm:w-full h-max flex flex-row  items-start justify-between gap-4 mb-5 px-4">
+    <div className="sm:w-full h-max flex flex-row  items-start justify-between gap-4  px-4">
       
       {/* Left: Name + Tagline + Links */}
       <div className="w-[65%] min-w-[240px] flex flex-col justify-center gap-3">
@@ -27,7 +27,7 @@ const Header = () => {
       </div>
 
       {/* Right: Image */}
-      <div className="w-[35%] min-w-[100px] flex justify-end">
+      <div className="w-[35%] min-w-[100px] flex justify-end ">
 
         <ProfileImage />
       </div>

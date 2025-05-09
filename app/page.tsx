@@ -8,9 +8,10 @@ export default function Home() {
 
   return (
     <>
+    <div className=" p-0 sm:p-20">
 
       <Header />
-      <div className="flex flex-col md:flex-row w-full gap-5 px-4">
+      <div className=" flex gap-20 flex-col sm:flex-row md:w-full px-4">
       <div className="w-full md:w-[60%]">
       <Experience />
         </div>
@@ -20,6 +21,7 @@ export default function Home() {
           <Strength/>
         </div>
       </div>
+    </div>
 
     </>
   );
